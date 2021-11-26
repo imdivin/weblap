@@ -6,3 +6,5 @@ function setnewimage()
 function setoldimage(){
     document.getElementById("img1").src="a2.png";
 }
+
+

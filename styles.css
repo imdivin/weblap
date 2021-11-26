@@ -2,8 +2,22 @@ body{
     background-image: linear-gradient(black, black) ;
     
 }
+.items{
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: auto;
+}
 
 
+.item{
+  min-width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  margin-right: 2px;
+  padding-left: 10px;
+}
   /*  .content {
     position: absolute;
     top: auto;
