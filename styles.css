@@ -9,7 +9,7 @@ body{
 }
 
 
-.item{
+.rounded{
   min-width: 200px;
   height: 200px;
   line-height: 200px;
@@ -18,6 +18,32 @@ body{
   margin-right: 2px;
   padding-left: 10px;
 }
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+body{
+	background-color: black;
+	color: #fff;
+	font-family: 'system-ui';
+}
+
+h1{
+	font-weight: 700;
+	font-size: 3.4em;
+}
+
+
+	.rounded:hover{
+		transform: translateY(-5px);
+		box-shadow: none;
+		opacity: 0.9;
+    
+	}
+}
+
+
+
   /*  .content {
     position: absolute;
     top: auto;
